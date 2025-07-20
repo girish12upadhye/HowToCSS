@@ -62,3 +62,33 @@
 .logo{
     height: 50px;
 }
+
+.profile{
+    width : 360px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.user-img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.footer{
+    border-top: 1px solid lightgray;
+    padding: 15px 10px;
+}
+
+.link{
+    background-color: transparent;
+    color : dodgerblue;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+}
+
+.padding{
+    padding: 10px;
+}
