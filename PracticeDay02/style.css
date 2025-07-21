@@ -1,0 +1,91 @@
+/* Positions */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    width: 270px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+    margin: 50px auto;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 5px
+}
+
+.help-btn{
+    background-color: black;
+    color: white;
+    padding: 16px 30px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.banner{
+    width: 270px;
+    border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    margin: 50px auto;
+    position: sticky;
+    box-shadow: 5px 5px 5px lightgray;
+    top: 10px;
+}
+.orangered{
+    background-color: orangered;
+    width: 120px;
+    height: 120px;
+    color: white;
+}
+.black{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    color: white;
+}
+.purple{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.bg{
+    width: 700px;
+    margin: 50px auto;
+    position: relative;
+    border: none;
+}
+
+.bg-img{
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.content{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 20px;
+    color: white;
+}
+.btn{
+    background-color:white;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 40px;
+}
