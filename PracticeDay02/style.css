@@ -13,7 +13,7 @@ body{
 
 .card-img{
     width: 100%;
-    border-radius: 5px
+    border-radius: 10px;
 }
 
 .help-btn{
@@ -88,4 +88,28 @@ body{
     padding: 16px 30px;
     border: none;
     border-radius: 40px;
+}
+.best{
+    position:absolute;
+    background-color: rgb(146, 255, 146);
+    color: rgb(0, 90, 0);
+    bottom: 4px;
+    margin: 10px;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+.must{
+    position:absolute;
+    background-color: rgb(255, 246, 233);
+    color: rgb(81, 47, 0);
+    top: 0;
+    margin: 10px;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+.header{
+    position: relative;
+    padding: 0;
 }

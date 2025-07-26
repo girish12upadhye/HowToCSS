@@ -1,0 +1,60 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card{
+    width: 260px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.flexbox{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.profile{
+    width:600px;
+    margin: 50px auto;
+    display: flex;
+    gap: 16px;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+    transition:1s;
+    box-shadow: 2px 2px 2px purple;
+}
+.profile-img:hover{
+    border-radius:50%;
+    width:240px;
+    height:240px;
+    transform: rotate(90deg)
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 14px 26px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    transition: 1s;
+    box-shadow: 2px 2px 2px purple;
+}
+
+.btn:hover{
+    background-color: white;
+    color: Black;
+    border-radius: 40px;
+    border: 1px solid black;
+}
